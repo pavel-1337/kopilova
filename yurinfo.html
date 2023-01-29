@@ -1,0 +1,23 @@
+<!--#set var="title" value="Юридическая информация" -->
+
+@include('partials/head.html')
+
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header.html')
+
+
+    <section class="aktsii content">
+        <div class="container">
+            <h1 class="title text-center">
+                Юридическая информация
+            </h1>
+            <ul class="list-reset yurinfo__list">
+                <li><a href="/yurinfo/licence.html" class="yurinfo-link">Лицензия, ЕГРЮЛ</a></li>
+                <li><a href="/yurinfo/nadzor.html" class="yurinfo-link">Надзорные органы</a></li>
+            </ul>
+        </div>
+    </section>
+
+    @include('partials/footer.html')
+    <!-- @include('html/h1.html') пример include -->

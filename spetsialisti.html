@@ -1,0 +1,123 @@
+<!--#set var="title" value="Специалисты" -->
+
+@include('partials/head.html')
+
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header.html')
+
+
+    <section class="aktsii content">
+        <div class="container">
+            <h2 class="title text-center">
+                Специалисты
+            </h2>
+            <div class="swiper-team">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="team__item">
+                      <div class="team__pic">
+                      <img src="img/team/kopilov.png" alt="Копылов Юрий Владимирович" class="team__img">
+                    </div>
+                      <h3 class="team__name">
+                        Копылов <br> Юрий Владимирович
+                      </h3>
+                      <p class="team__text">
+                        Директор клиники
+                      </p>
+                      <a href="/spetsialisti/kopilov.html" class="link team__link">
+                        Подробнее
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">      <div class="team__item">
+                    <div class="team__pic">
+                    <img src="img/team/kopilova.png" alt="Копылова Елена Андреевна" class="team__img">
+                  </div>
+                    <h3 class="team__name">
+                      Копылова <br> Елена Андреевна
+                    </h3>
+                    <p class="team__text">
+                      Главный врач
+                    </p>
+                    <a href="/spetsialisti/kopilova.html" class="link team__link">
+                      Подробнее
+                    </a>
+                  </div></div>
+                  <div class="swiper-slide">      <div class="team__item">
+                    <div class="team__pic">
+                    <img src="img/team/grigorieva.png" alt="Григорьева Марина Владимировна" class="team__img">
+                  </div>
+                    <h3 class="team__name">
+                      Григорьева <br> Марина Владимировна
+                    </h3>
+                    <p class="team__text">
+                      Стоматолог-ортопед
+                    </p>
+                    <a href="/spetsialisti/grigorieva.html" class="link team__link">
+                      Подробнее
+                    </a>
+                  </div></div>
+                  <div class="swiper-slide">      <div class="team__item">
+                    <div class="team__pic">
+                    <img src="img/team/fillipova.png" alt="Григорьева Марина Владимировна" class="team__img">
+                  </div>
+                    <h3 class="team__name">
+                      Филлипова<br> Яна Константиновна 
+                    </h3>
+                    <p class="team__text">
+                      Стоматолог-ортопед
+                    </p>
+                    <a href="/spetsialisti/filippova.html" class="link team__link">
+                      Подробнее
+                    </a>
+                  </div></div>
+                
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+              </div>
+
+              <div class="swiper-team">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="team__item">
+                      <div class="team__pic">
+                      <img src="" alt="" class="team__img">
+                    </div>
+                      <h3 class="team__name">
+                        Краснова <br> Елена Владимировна
+                      </h3>
+                      <p class="team__text">
+                        Стоматолог-терапевт
+                      </p>
+                      <a href="/spetsialisti/krasnova.html" class="link team__link">
+                        Подробнее
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">      
+
+                  </div>
+                  <div class="swiper-slide">      
+
+                  </div>
+                  <div class="swiper-slide">      
+
+                  </div>
+                
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+              </div>
+        </div>
+    </section>
+
+    @include('partials/footer.html')
+    <!-- @include('html/h1.html') пример include -->
